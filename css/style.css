@@ -7,12 +7,37 @@
 
 body{
     font-family: Montserrot, 'Helvetica Neue', sans-serif;
+    background-color: #f6f5f3;
 }
 
 h1{
     font-family: 'Nerko One', cursive;
+    font-size: 45px;
+    font-weight: 900;
+    padding: 15px 0;
 }
 img{
     display: block;
     width: 100%;
+}
+
+
+/* header */
+.main-header{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* utils */
+.bg-white{
+    background-color: white;
+}
+
+.color-orange{
+    color: #ff9613;
+}
+
+.flex{
+    display: flex;
 }
