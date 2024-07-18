@@ -101,6 +101,12 @@ ul{
     border-radius: 50%;
 }
 
+/* presentation */
+.border-presentation{
+    border: 1px solid orange;
+    width: 60px
+}
+
 /* utils */
 
 .border{
@@ -143,12 +149,21 @@ ul{
     color: lightblue;
 }
 
+.color-lightgrey{
+    color: rgba(30, 29, 29, 0.779);
+}
+
 .flex{
     display: flex;
 }
 
 .no-text-deco{
     text-decoration: none;
+}
+
+.img-60{
+    width: 60%;
+    margin: 0 auto;
 }
 
 .mg-b-10{
