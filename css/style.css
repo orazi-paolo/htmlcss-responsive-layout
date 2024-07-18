@@ -111,6 +111,13 @@ address{
     border-radius: 50%;
 }
 
+.item-social{
+    flex-basis: calc(100% / 5);
+}
+
+.none-social{
+    display: none;
+}
 /* footer */
 .footer{
     flex-direction: column;
