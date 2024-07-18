@@ -1,7 +1,52 @@
+
+/* responsive tablet */
 @media  screen and (min-width: 768px) {
+    /* main header */
+    .main-header{
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+
+    /* space left and right high */
+    .container{
+        max-width: 80%;
+    }
     
+    /* (dolce tradizionale) */
+    .none{
+        display: inline;
+    }
+
+    /* bigger title  */
+    h1{
+        font-size: 50px;
+    }
+    
+    /* recipe */
+    .grill{
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .item-grill{
+        flex-basis: calc(100% / 3);
+    }
+
+    /* social */
+    .fa-brands{
+        padding: 15px 50px;
+        border-radius: 20px;
+    }
+
+    /* presentation */
+    .img-60{
+        float: left;
+        padding-right: 10px;
+    }
+
 }
 
+/* responsive desktop */
 @media screen and (min-width: 992px) {
     
 }

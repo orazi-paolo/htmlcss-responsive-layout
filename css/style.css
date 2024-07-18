@@ -94,6 +94,12 @@ address{
     color: white;
 }
 
+/* list recipe */
+.grill{
+    display: flex;
+    flex-direction: column;
+}
+
 /* social */
 .social{
     justify-content: space-around;
@@ -190,6 +196,10 @@ address{
 .img-60{
     width: 60%;
     margin: 0 auto;
+}
+
+.none{
+    display: none;
 }
 
 .mg-b-10{
