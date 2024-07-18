@@ -1,0 +1,18 @@
+/* generics */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Montserrot, 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    font-family: 'Nerko One', cursive;
+}
+img{
+    display: block;
+    width: 100%;
+}
