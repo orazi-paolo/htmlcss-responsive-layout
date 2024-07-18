@@ -90,6 +90,17 @@ ul{
     color: white;
 }
 
+/* social */
+.social{
+    justify-content: space-around;
+}
+
+.fa-brands{
+    background-color: white;
+    padding: 15px;
+    border-radius: 50%;
+}
+
 /* utils */
 
 .border{
@@ -118,6 +129,18 @@ ul{
 
 .color-white{
     color: white;
+}
+
+.color-red{
+    color: red;
+}
+
+.color-blue{
+    color: blue;
+}
+
+.color-light-blue{
+    color: lightblue;
 }
 
 .flex{
