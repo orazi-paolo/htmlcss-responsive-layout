@@ -21,6 +21,10 @@ img{
     width: 100%;
 }
 
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
 
 /* header */
 .main-header{
@@ -29,15 +33,70 @@ img{
     width: 100%;
 }
 
+/* header recipe */
+.tipology{
+    color: #b0b0af;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.header-recipe{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-recipe{
+    color: #4e3969;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.rate{
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
 /* utils */
 .bg-white{
     background-color: white;
+}
+
+.bg-orange{
+    background-color: #f7982e;
 }
 
 .color-orange{
     color: #ff9613;
 }
 
+.color-black{
+    color: black;
+}
+
+.color-white{
+    color: white;
+}
+
 .flex{
     display: flex;
+}
+
+.no-text-deco{
+    text-decoration: none;
+}
+
+.mg-b-10{
+    margin-bottom: 10px;
+}
+
+.mg-b-30{
+    margin-bottom: 30px;
+}
+
+.font-size-20{
+    font-size: 20px;
+}
+
+.font-weight-900{
+    font-weight: 900;
 }
